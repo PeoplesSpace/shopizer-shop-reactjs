@@ -85,9 +85,11 @@ const ProductImageGallery = ({ product }) => {
                       group="any"
                       src={single.imageUrl}
                     >
+                      {/**
                       <button>
                         <i className="pe-7s-expand1"></i>
                       </button>
+                      */}
                     </LightgalleryItem>
                     <div className="single-image">
                       <img
